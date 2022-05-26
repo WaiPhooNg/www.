@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Voyager.net</title>
+<style type="text/css">
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0a1e40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0a1e40;
+   color: white;
+   text-align: center
+}
+
+.bg-image {
+  background-image: url("Grid.png");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+</style>
+<link rel="icon" type="image/x-icon"href="logo.png">
+</head>
+<body>
+
+<ul>
+  <li><a href="Voyagernet.html">Home</a></li>
+  <li><a href="guide.html">Guide</a></li>
+  <li><a class="active" href="contactus.html">Contact</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2>Your response has been sent</h2>
+  <h1 style="font-size:50px">Feedback recieved</h1>
+  <p>Thank you for reaching out to us!</p>
+</div>
+
+<div class="footer">
+  <p>© 2022 Voyager.net</p>
+</div>
+
+</body>
+</html>

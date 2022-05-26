@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thailand</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0a1e40;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1c1c1c;
+  margin: 0;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Thai HEX.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 1px solid black;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+ 
+ img {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.FraBar{
+  background-color: darkblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.SpaBar{
+  background-color: #AA151B;
+  width: 100%;
+  padding: 10px;
+}
+
+.USABar{
+  background-color: #3C3B6E;
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: 1px solid black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
+
+.cite{
+  font: italic;
+  font-style: italic;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0a1e40;
+   color: white;
+   text-align: center
+}
+
+@media screen and (max-width: 1000px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<link rel="icon" type="image/x-icon"href="logo.png">
+</head>
+<body>
+
+<ul>
+   <li><a href="Voyagernet.html">Home</a></li>
+  <li><a class="active" href="guide.html">Guide</a></li>
+  <li><a href="contactus.html">Contact</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Thailand</h1>
+    <p>A page dedicated to the Asian country of Thailand</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Basic Information</h2>
+      <h5>Some basic information you should know</h5>
+      <img src="image/thai.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : WallpaperAccess.com </p>
+      <p>Thailand, Thailand is kind of popular country in the world and also most of the tourists visit to thailad. Thailand located in the heart of mainland Southeast Asia. Thailand is a country of mountains, hills, plains and Thailand is the world's largest exporter of rice and such as clothes!! The national color of Thailand is red, white and bluenso we advise you to wear something dark blue or white!! </p>
+    </div>
+
+    <div class="card">
+      <h2>Travel Advice</h2>
+      <h5>Some travelling advice for when you go to Thailand</h5>
+      <img src="image/thaiw.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : Wallpaperaccess.com </p>
+      <p>The best time to go to FranceThailand is in between November and early April. When the weather is most settled and warmest but the crowds are always there. It's really great to go there since the sun is going to shine and warm. Also, the beautiful islands will attractive to you!!!</p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Basic History 1</h2>
+      <div><img src="image/thaiwar.jpg"></div>
+      <p>Image source : pinimg.com</p>
+      <p>From the 800s through the 13th century, the Khmer Empire controlled Thailand for many years. Local Thai chiefs banded together in the 13th century and drove the Khmer Empire out of Thailand. In 1238, they founded the Thai Kingdom.The Thai Kingdom of Ayutthaya was founded in 1350. Rama Thibodi was the country's first king. King Thibodi established the Dharamshastra rule of law and proclaimed Theravada Buddhism the national religion.</p>
+    </div>
+
+    <div class="card">
+      <h3>Popular Nations</h3>
+      <div class="FraBar"><a href="France.html">France</a></div><br>
+      <div class="SpaBar"><a href="Spain.html">Spain</a></div><br>
+      <div class="USABar"><a href="US.html">America</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Additional Info</h1>
+    <p>Click here to go to the additional info page, it contains information on cities and landmarks</p>
+    <div class="USABar"><a href="Thailandg.html">Additional Info</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Basic History 2</h1>
+    <p>For about 400 years, the Kingdom of Ayutthaya governed the land. Burmese armies invaded and burnt the capital in 1767. The Chakri dynasty arose in 1782 in the city of Chao Phraya, which is now Bangkok. The Chakri dynasty's first ruler was Rama I. Thailand is still ruled by the Chakri family, and King Adulyadej has been in power since 1946. European explorers dubbed Thailand Siam and its people Siamese. During the colonization period, Thailand barely avoided being colonized by any European country.</p>
+    </div>
+
+    <div class="card">
+    <h1>Thailand Cuisine</h1>
+    <p>Thailand cuisine is very delicious and different with other countries. Also, layout of foods are beautiful and tasty! There has many many popular dishes that you can try!!</p>
+    </div>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+  <p>© 2022 Voyager.net</p>
+</div>
+
+</body>
+</html>

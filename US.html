@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>United States</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0a1e40;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1c1c1c;
+  margin: 0;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("RWB.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 1px solid black;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+ 
+ img {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.FraBar{
+  background-color: darkblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.SpaBar{
+  background-color: #AA151B;
+  width: 100%;
+  padding: 10px;
+}
+
+.USABar{
+  background-color: #3C3B6E;
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: 1px solid black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
+
+.cite{
+  font: italic;
+  font-style: italic;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0a1e40;
+   color: white;
+   text-align: center
+}
+
+@media screen and (max-width: 1000px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<link rel="icon" type="image/x-icon"href="logo.png">
+</head>
+<body>
+
+<ul>
+   <li><a href="Voyagernet.html">Home</a></li>
+  <li><a class="active" href="guide.html">Guide</a></li>
+  <li><a href="contactus.html">Contact</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">United States(U.S)</h1>
+    <p>A page dedicated to the North American country of USA</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Basic Information</h2>
+      <h5>Some basic information you should know</h5>
+      <img src="image/USA2.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : WallpaperAccess.com </p>
+      <p>The United States is one of the most visited nations in the world, infact it's the third most visited nation in the world. The United States is popular for their massive and highly developed cities and towns, not only that but they also have various landmarks that are very popular and very good to visit!</p>
+    </div>
+
+    <div class="card">
+      <h2>Travel Advice</h2>
+      <h5>Some travelling advice for when you go to France</h5>
+      <img src="image/USA1.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : Wallpaper Cave.com </p>
+      <p>The best time to visit the United States is in Autumn where the tempature is mild and warm and the crowds are not present. It's a good time to go there when you visit the USA since there won't be much people there. If you plan on visiting the USA we suggest you take a very long time there since the USA is a very large nation with various regions to visit.</p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Basic History 1</h2>
+      <div><img src="image/usw.jpg"></div>
+      <p>Image source : Wikipedia.com</p>
+      <p>The USA was inhabitied by various minor tribes and factions before the Europeans landed in North America, The British first settled somewhere in Virginia and called the settlement Jamestown. After a few more decades of mass colonization the colony in America became so large that the British called it The Thirteen Colonies. Eventually though the Americans in the colonies would revolt agaisnt the British and would eventually gain independence after a long and harsh brutal war between the two factions.</p>
+    </div>
+
+    <div class="card">
+      <h3>Popular Nations</h3>
+      <div class="FraBar"><a href="France.html">France</a></div><br>
+      <div class="SpaBar"><a href="Spain.html">Spain</a></div><br>
+      <div class="USABar"><a href="US.html">America</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Additional Info</h1>
+    <p>Click here to go to the additional info page, it contains information on cities and landmarks</p>
+    <div class="USABar"><a href="usg.html">Additional Info</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Basic History 2</h1>
+    <p>After a few decades of independence the Americans got into another war with the British forces once again in the War of 1812. The white house got burned down by the British forces and America was heavily dishonored after the war. After the war of 1812 another terrible event happened to the USA where a brutal civil war occured between the pro-slavery forces of the American south fighting the American northen forces. After the brutal civil war the north won and America was reunited. After the civil war the USA slowly became a global superpower and participated in both world wars.</p>
+    </div>
+
+    <div class="card">
+    <h1>American Cuisine</h1>
+    <p>American cuisine is very basic yet quite good, it has quite simple dishes such as Burgers, Fries and other types of simple fast food. There isn't much to talk about their Cuisine here.</p>
+    </div>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+  <p>© 2022 Voyager.net</p>
+</div>
+
+</body>
+</html>

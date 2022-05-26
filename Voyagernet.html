@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voyagernet.Home</title>
+<style>
+* {
+  box-sizing:border-box;
+}
+
+.hero-text{
+  border: 1px solid black;
+  padding: 100px;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("HOME-HEX.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 1px solid black;
+}
+
+body,h1,header {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0a1e40;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0a1e40;
+   color: white;
+   text-align: center
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+</style>
+<link rel="icon" type="image/x-icon"href="logo.png">
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="guide.html#guide">Guide</a></li>
+  <li><a href="contactus.html#contact">Contact</a></li>
+  <li><a href="aboutus.html#about">About</a></li>
+</ul>
+
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size: 52px;">Welcome!</h1>
+    <p>Welcome to Voyager.net we hope you enjoy your visit here.</p>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Voyager.net</b></h1>
+      <h1 class="large-font" style="color:darkblue;"><b>Why us?</b></h1>
+      <p>Although Voyager.net may not be the most popular website or have the best reputation we're a fairly new travel website rising towards the sky. Unlike other travel sites we give you information and data that are of the top quality and are ensured to be true! Go ahead and enjoy our website by checking our various guides on different nations that's being expanded weekly with new countries being added</p>
+    </div>
+    <div class="column-33">
+        <img src="image/Globe.png" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="image/Book.png">
+    </div>
+    <div class="column-66">
+      <h1 class="large-font" style="color:darkblue;"><b>What do we offer?</b></h1>
+      <p>Voyager.net can offer you a lot of knowledge and information you may wish to know on countries you wish to visit in the future or countries you need to go for a business meeting or any other reasons that may need you to travel overseas. Well, in that case Voyager.net is here to help!</p>
+      <p>We can offer you a lot of things, we have a lot of information on multiple countries around the world currently. For now we have a lot of data on the top 10 most visited countries as well as the Nordic nations ranging from some basic information of said nation to an in-depth explaination of a nation's history!</p>
+      <p>The website may not be the largest for now but we are proud of what we have built so far and are pleased to say that more information and more entries on multiple nations will be added in the near future. We've already planned to expand our guide to include multiple Asian countries very soon.</p>
+      <p>Besides the website's features in terms of context the website actually has multiple cool features script wise, the website is fully responsive meaning you can view the website on both mobile and PC as well as other platforms, not only that but we also have a contact sector that is operated by our operators 24/7.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>© 2022 Voyager.net</p>
+</div>
+
+
+</body>
+</html>

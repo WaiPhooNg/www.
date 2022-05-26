@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon"href="logo.png">
+<title>France</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0a1e40;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1c1c1c;
+  margin: 0;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("French HEX.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 1px solid black;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+ 
+ img {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.FraBar{
+  background-color: darkblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.SpaBar{
+  background-color: #AA151B;
+  width: 100%;
+  padding: 10px;
+}
+
+.USABar{
+  background-color: #3C3B6E;
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: 1px solid black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
+
+.cite{
+  font: italic;
+  font-style: italic;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0a1e40;
+   color: white;
+   text-align: center
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="Voyagernet.html">Home</a></li>
+  <li><a class="active" href="guide.html">Guide</a></li>
+  <li><a href="contactus.html">Contact</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">France</h1>
+    <p>A page dedicated to the West-European country of France</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Basic Information</h2>
+      <h5>Some basic information you should know</h5>
+      <img src="image/Paris.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : WallpaperAccess.com </p>
+      <p>France is the most visited country in the world, it's the most popular tourist spot in the entire world so you're making quite a good choice if you choose to go to France for a vacation or a trip! Not only that but France is one of the most cultured and oldest countries in the world. The national color of France is red, white and blue but they prefer to hold blue as their primary color so we advise you to wear something blue or dark blue when you go there! There's also a lot of interesting and fun cultural and historic sites around Paris, Lyon, Calasis and multiple other cities that we suggest you go to!</p>
+    </div>
+
+    <div class="card">
+      <h2>Travel Advice</h2>
+      <h5>Some travelling advice for when you go to France</h5>
+      <img src="image/LOV.jpeg" style="height:200px width:700px">
+      <p class="cite">Img Source : Britanica.com </p>
+      <p>The best time to go to France is in the summer ( June - August ) where the tempature there is mild and warm and the crowds aren't there. It's really nice to go there since the sun is going to shine a lot and the beaches of Normandy would be a great vacation spot, not only that but the Eiffel Tower won't be covered in fog meaning you can get some scenic and wonderful shots of it!</p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Basic History 1</h2>
+      <div><img src="image/Nap.jpg"></div>
+      <p>Image source : wikipedia</p>
+      <p>France is currently an independent and large European nation, France gained their territory and culture through a vast and rich history though, here's a brief summary of it</p>
+      <p>In the age of the Romans France was part of the Gaullic territory or Gallia as the natives refered it to. The present name originates from the Latin word Francia, meaning "country of the Franks," a type of Germanic people who conquered the area around the 5th century, at the time of the collaspe of the Western Roman Empire. It later became a separate and independent country around the 9th century.</p>
+    </div>
+
+    <div class="card">
+      <h3>Popular Nations</h3>
+      <div class="FraBar"><a href="France.html">France</a></div><br>
+      <div class="SpaBar"><a href="Spain.html">Spain</a></div><br>
+      <div class="USABar"><a href="US.html">America</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Additional Info</h1>
+    <p>Click here to go to the additional info page, it contains information on cities and landmarks</p>
+    <div class="USABar"><a href="Franceg.html">Additional Info</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Basic History 2</h1>
+    <p>From then on, especially in the 17th century, France began to play a major roles in European and world events. Ranging from the Napoleonic war to the spread of democracy in Europe. In the 1900s France has experienced numerous issues, including the devastation of two world wars, in which one of them they were capitulated. Not only that but they also experienced political and social upheavals, and the loss of a large empire in Indochina, Algeria, and West and Equatorial Africa. It has, however, survived and emerged from the ruins of World War II to become an important world supplier of agricultural and industrial products.</p>
+    </div>
+
+    <div class="card">
+    <h1>French Cuisine</h1>
+    <p>French cuisine is one of the best cuisines in the world, their traditional food is very well made and luxurious. Not only that but there are tons of delicious food that you should try ranging from full meal courses to different types of pastries.</p>
+    </div>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+  <p>© 2022 Voyager.net</p>
+</div>
+
+</body>
+</html>

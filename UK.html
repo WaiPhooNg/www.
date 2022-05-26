@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>United Kingdom</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0a1e40;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1c1c1c;
+  margin: 0;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("RWB.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 1px solid black;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+ 
+ img {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.FraBar{
+  background-color: darkblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.SpaBar{
+  background-color: #AA151B;
+  width: 100%;
+  padding: 10px;
+}
+
+.USABar{
+  background-color: #3C3B6E;
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: 1px solid black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
+
+.cite{
+  font: italic;
+  font-style: italic;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0a1e40;
+   color: white;
+   text-align: center
+}
+
+@media screen and (max-width: 1000px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<link rel="icon" type="image/x-icon"href="logo.png">
+</head>
+<body>
+
+<ul>
+  <li><a href="Voyagernet.html">Home</a></li>
+  <li><a class="active" href="guide.html">Guide</a></li>
+  <li><a href="contactus.html">Contact</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">United Kingdom(U.K)</h1>
+    <p>A page dedicated to European country of The UK</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Basic Information</h2>
+      <h5>Some basic information you should know</h5>
+      <img src="image/London.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : WallpaperAccess.com </p>
+      <p>The UK is a fairly popular nation that gets visited by tourists yearly, the UK is a very nice nation with an awesome and interesting culture and alot of places and landmarks to visit! If you're planning on visiting the United Kingdom you are making the right choice.</p>
+    </div>
+
+    <div class="card">
+      <h2>Travel Advice</h2>
+      <h5>Some travelling advice for when you go to France</h5>
+      <img src="image/London2.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : Stillsure.com</p>
+      <p>The weather in the UK is usually the same, the only exception is in June to August when the weather is scorhing hot, we suggest you don't visit the UK in the summer due to how hot it is there but any other period especially in March when the weather is mild and the crowds are dispered is a good period to visit the UK in.</p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Basic History 1</h2>
+      <div><img src="image/Waterloo.png"></div>
+      <p>Image source : Wikipedia commons</p>
+      <p>The British isles were invaded by the Grand Roman Empire in about 55 BC, that was when the people of the British isles made contact with the known world at the time. Eventually after the Romans fell different factions, different nations came to the British isles to conquer it due to it's strategic importance. After the Romans went away factions like The Saxons, Vikings and The Normans took over the Isles until the British isles eventually became independent and became their own nation.</p>
+    </div>
+
+    <div class="card">
+      <h3>Popular Nations</h3>
+      <div class="FraBar"><a href="France.html">France</a></div><br>
+      <div class="SpaBar"><a href="spain.html">Spain</a></div><br>
+      <div class="USABar"><a href="US.html">America</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Additional Info</h1>
+    <p>Click here to go to the additional info page, it contains information on cities and landmarks</p>
+    <div class="USABar"><a href="ukg.html">Additional Info</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Basic History 2</h1>
+    <p>In the 1500s Britain began to expand its empire around the world in various places. After defeating the Spanish Armada in 1588, The British became the world's dominant sea power. Britain first grew into the Far East and India and then to the Americas. In the early 1800s the UK defeated France in the Napoleonic Wars and became the supreme European power. But after 2 world wars the UK became weaker and weaker over time, they eventually lost all of their colonies and ended up in the place they are currently in now. The United Kingdom declined as a world power in the 1900s. It lost control of more colonies and was weakened by World War I. The British played a significant role in world history, taking the lead in developing democracy and advancing literature and science.</p>
+    </div>
+
+    <div class="card">
+    <h1>British Cuisine</h1>
+    <p>French cuisine is quite similar to French Cuisine except British Cuisine prefers to use quite the amount of butter and usually contains fish, eggs and potatoes. And ofcourse how could we nforget the classic English Breakfast? It's a breakfast with multiple traditional British ingredients such as : eggs, sausages, mushrooms and others.</p>
+    </div>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+  <p>© 2022 Voyager.net</p>
+</div>
+
+</body>
+</html>
