@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italy</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #0a1e40;
+}
+
+body, html {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1c1c1c;
+  margin: 0;
+  height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Italy HEX.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 1px solid black;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+ 
+ img {
+  width: 100%;
+  padding: 0px;
+  border: 1px solid black;
+}
+
+.FraBar{
+  background-color: darkblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.SpaBar{
+  background-color: #AA151B;
+  width: 100%;
+  padding: 10px;
+}
+
+.USABar{
+  background-color: #3C3B6E;
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border: 1px solid black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: blue;
+}
+d
+.cite{
+  font: italic;
+  font-style: italic;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #0a1e40;
+   color: white;
+   text-align: center
+}
+
+@media screen and (max-width: 1000px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+<link rel="icon" type="image/x-icon"href="logo.png">
+</head>
+<body>
+
+<ul>
+  <li><a href="Voyagernet.html">Home</a></li>
+  <li><a class="active" href="guide.html">Guide</a></li>
+  <li><a href="contactus.html">Contact</a></li>
+  <li><a href="aboutus.html">About</a></li>
+</ul>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Italy</h1>
+    <p>A page dedicated to the South European country of Italy</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Basic Information</h2>
+      <h5>Some basic information you should know</h5>
+      <img src="image/italy1.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : WallpaperAccess.com </p>
+      <p>Italy, Italy is famous and the fifth most visited country in the world. Rome is over 2,000 years old. Italy has so many lakes and when someone says Italy, we only see the water frst. Because Some of the Italy houses are in water. So, we're sure if u go to there, you would feel fresh and cool!! </p>
+    </div>
+
+    <div class="card">
+      <h2>Travel Advice</h2>
+      <h5>Some travelling advice for when you go to Italy</h5>
+      <img src="image/itw.jpg" style="height:200px width:700px">
+      <p class="cite">Img Source : Wallpaperaccess.com </p>
+      <p>The best time to go to Italy is in (March - May) and (September-November) when the weather is great and comfortable and the crowds fewer there. Wildflowers in early April and rising temperatures through to the end of June are a real draw. It's really nice to go there!!</p>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Basic History 1</h2>
+      <div><img src="image/carthago.jpg"></div>
+      <p>Image source : Wikipedia.com</p>
+      <p>A small agricultural village was growing on the west coast of Italy around the same time in the 8th century BCE. It established the city of Rome, which grew to become Ancient Rome, one of the world's major civilizations. The Roman Republic would emerge first, followed by the Roman Empire. Much of Europe and the Mediterranean would be under its control. Much of today's western civilisation, including philosophy, art, and law, would be shaped by the influence of Rome and Greek culture. The Roman Empire was split into two parts in 395 CE: the Western Roman Empire and the Eastern Roman Empire. The Western Empire, which lasted until 476 CE, included Italy.</p>
+    </div>
+
+    <div class="card">
+      <h3>Popular Nations</h3>
+      <div class="FraBar"><a href="France.html">France</a></div><br>
+      <div class="SpaBar"><a href="Spain.html">Spain</a></div><br>
+      <div class="USABar"><a href="US.html">America</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Additional Info</h1>
+    <p>Click here to go to the additional info page, it contains information on cities and landmarks</p>
+    <div class="USABar"><a href="Italyg.html">Additional Info</a></div>
+    </div>
+
+    <div class="card">
+    <h1>Basic History 2</h1>
+    <p>Italy became the birthplace of the Italian Renaissance in the 1400s. Artists such as Leonardo da Vinci and Michelangelo excelled during this time period.Much of Italy desired to become one country in the 1800s. Italy became a constitutional monarchy and a united, sovereign country in 1871.Benito Mussolini became Italy's dictator in 1922. He was the dictator of Italy, which he turned into a fascist regime. During World War II, he supported the Axis Powers of Germany and Japan. Mussolini was dismissed from power when they lost the war. Italy became a republic in 1946.</p>
+    </div>
+
+    <div class="card">
+    <h1>Italy Cuisine</h1>
+    <p>Italy cuisine is very basic and simple yet quite good, Italy dishes are quite simple such as Pizza, Pasta and other types of food. Italy traditional famous dish is made with layers of grilled eggplant with marinara sauce and parmesan cheese, if u go to Italy, you should try to this dish!!</p>
+    </div>
+
+  </div>
+</div>
+
+<br>
+<br>
+
+<div class="footer">
+  <p>© 2022 Voyager.net</p>
+</div>
+
+</body>
+</html>
